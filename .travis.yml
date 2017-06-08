@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: npm
+  email: infrastructure@concreteplatform.com
+  api_key:
+    secure: lMwEt68GlZM8P3lgCI9AiB3FvX/n1vAL5b95GTLTktJBaRyWbOgUOxV47FAveM/z78DWUmbLwzblfWxqxeF+KjjY50ELo1HD8VmZbFXdl6wQwQitC2NJZN/NGZDDeRAOL2n4EDikFNe9uf2lTKPku8ZqzU+2OEcRF+So7g+EqjU145bPhYKPsIyZd/Ow2jZJF2iYwOPaeP6WlipYZwFQjiFWQwbqBCT2nDd3oWVi7sGw4DaDMIkmaeoHWPnBx5hMCZAf1C+OhTppGPfk0SQ/m2ua24v69//C+KTfnuFkaWQXl7lLn0PEoYAsVvthFkS4ubYOwiW+ll6gP8C/Nf35wcsP0H3UiyEghO/kW08A8m8IVEMPoddosyEOQ2MaDDZcICUznIB3yTpZLpfXhRfIn3zulR2Qjs+dCio1PhmmDzUxQoqAqoJl1CqhXP1Em3FmITUfsD7PBj7f01n2JVB9uweswE2K705ZUApDPrzKg+BDoReWCvdERQEdZsKFyKFnYVnBZRNeTRt2vn5jXilqU3J8wbMR1UBs+96wqmJWPf3gyRs+NMk0Oe/3v8dt7gAEff9ZoPimtT+yV39xkSSI2TYBmL1Yoy1TvEbzk2uVmB7jBfm5BIxumGsOYseOqE6YCPlyBSU5bqU78u1i3ktAyAt0Gn+gTH2qgVqpO+oTRPY=
+  on:
+    tags: true
+    repo: concrete-cc/jest-mock-express
